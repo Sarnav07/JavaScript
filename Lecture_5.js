@@ -23,7 +23,7 @@ console.log(val);
 const arrowSum = (a,b) => {
     console.log(a+b);
 };
-
+    
 console.log(arrowSum(1,2));
 
 const arrowMultiplication = (a,b)=> {
@@ -135,3 +135,5 @@ const Multiplication = numberArray.reduce((result,current)=>{
     return result*current;
 })
 console.log(Multiplication);
+
+

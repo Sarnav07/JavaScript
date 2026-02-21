@@ -9,7 +9,7 @@ console.log(heros[0]);
 marks[0]=90;
 console.log(marks[0]) // strings in js are immutable but array are mutable
 
-// loops : iterable -> strings , objects , arrays
+// loops : iterable -> strings , objects , arrays   
 
 for ( let i=0 ; i<heros.length;i++) {
     console.log(heros[i])
@@ -82,3 +82,4 @@ console.log(company);
 let add = company.push("Amazon");
 console.log(add);
 console.log(company);
+
